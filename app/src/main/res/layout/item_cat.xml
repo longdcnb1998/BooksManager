@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+    <data></data>
+    <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        style="@style/layoutMatchWrap"
+        android:background="@drawable/list_selector">
+
+
+        <TextView
+            android:id="@+id/textView_Icon"
+            style="@style/layoutWrap"
+            android:layout_width="40dp"
+            android:textStyle="bold"
+            android:layout_height="40dp"
+            android:background="@drawable/bg_title_circle"
+            android:gravity="center"
+            android:text="A"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <LinearLayout
+            android:id="@+id/linearItemCat"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/marginNormal"
+            android:layout_marginRight="@dimen/marginNormal"
+            android:orientation="vertical"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/textView_Icon"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <TextView
+                android:id="@+id/textView_titleCat"
+                style="@style/textViewNormal"
+                android:singleLine="true"
+                android:text="Toàn Bộ" />
+
+            <TextView
+                android:id="@+id/textView_contentCat"
+                style="@style/textViewSmallGray"
+                android:singleLine="true"
+                android:text="Toàn Bộ" />
+
+        </LinearLayout>
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

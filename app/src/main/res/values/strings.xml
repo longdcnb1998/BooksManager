@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">BooksManager</string>
+    <string name="login">Đăng nhập</string>
+    <string name="register">Đăng kí</string>
+    <string name="add">Thêm</string>
+    <string name="search">Tìm kiếm sách</string>
+    <string name="delete">Xóa</string>
+    <string name="edt">Sửa</string>
+    <string name="searchCat">Tìm kiếm loại sách</string>
+</resources>
